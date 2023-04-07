@@ -12,7 +12,8 @@
 .pinguino-superior {
   top: 10%;
   left: 25%;
-  background: black;
+  background: black; 
+  background: var(--pinguino-piel)
   width: 50%;
   height: 45%;
   border-radius: 70% 70% 60% 60%;
@@ -52,7 +53,8 @@
 .mejilla-derecha {
   top: 15%;
   left: 35%;
-  background: var(--pinguino-barriga, white);
+  background: white;
+  background: var(--pinguino-barriga);
   width: 60%;
   height: 70%;
   border-radius: 70% 70% 60% 60%;
