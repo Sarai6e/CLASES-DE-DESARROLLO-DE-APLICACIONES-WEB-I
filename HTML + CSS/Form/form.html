@@ -1,0 +1,35 @@
+<!--Desarrolle cards con div -->
+<!--DOCTYPE es una etiqueta que nos permite definir los elementos del archivo HTML-->
+<!doctype html>
+<html lang="en">  <!-- El html es el atributo y lang el idioma-->
+<!-- Inicio de la  estructura-->
+<head>
+  <meta charset="utf-8"> <!--especifica la codificación de caracteres -->
+  <title>Form</title>
+<!--La etiqueta meta viewport controla el ancho de la página-->
+<!--"Initial-scale" establece el nivel de zoom de la página-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="form style.css"> <!--definir hoja estilo (css)-->
+</head>
+<body>
+  <form class="form">
+    <h2 class="form__title">Sing in</h2>
+    <div class="form__container">
+        <div class="form__group">
+            <input type="text" id="name" class="form__input" placeholder=" ">
+            <label for="name" class="form__label">Name:</label>
+            <span class="form__line"></span>
+        </div>
+        <div class="form__group">
+            <input type="text" id="user" class="form__input" placeholder=" ">
+            <label for="user" class="form__label">Passwod:</label>
+            <span class="form__line"></span>
+        </div>
+     <a href="enlacepagina.html">create count</a>
+     <a href="enlacepagina.html">forget password</a>
+        <input type="submit" class="form__submit" value="Go">
+    </div>
+</form>    
+
+</body>
+</html>
