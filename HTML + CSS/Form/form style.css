@@ -114,13 +114,14 @@ body {
 }
 
 .form__submit{
-    background-color: #eb811f;
-    color: #fefefe;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 1rem;
     padding: .8em 0;
     border: none;
+    border-radius: 3px;
+    color: rgb(209, 209, 209);
+    background: rgba(202, 116, 46, 0.7);
     border-radius: .5em;
 }
 
