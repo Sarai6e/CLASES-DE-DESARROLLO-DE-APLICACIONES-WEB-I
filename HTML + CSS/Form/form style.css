@@ -36,12 +36,17 @@ header {
     z-index: 99;
 }
 .logo {
-    background-image: url('https://www.paellacreativa.com.ar/wp-content/uploads/2014/05/colibri_logo.png');
-    background-position-x:center;
-    background-position-y:center;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWFzlBJwZiizzvWrMgjY4RWmg2Ztl_3flzKYajuSeeXIqKS0I11XnBUPwlKFYn0yr0aiU&usqp=CAU');
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 7%;
+    width: 7%;
+    height: auto;
     background-size: 10rem;
     font-size: 2em;
-    color: #000000;
+    color: #ffffff;
     user-select: none;
 
 }
