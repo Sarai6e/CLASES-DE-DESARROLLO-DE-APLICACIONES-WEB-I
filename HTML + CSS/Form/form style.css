@@ -36,13 +36,6 @@ header {
     z-index: 99;
 }
 .logo {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWFzlBJwZiizzvWrMgjY4RWmg2Ztl_3flzKYajuSeeXIqKS0I11XnBUPwlKFYn0yr0aiU&usqp=CAU');
-    position: relative;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 7%;
-    width: 7%;
     height: auto;
     background-size: 10rem;
     font-size: 2em;
