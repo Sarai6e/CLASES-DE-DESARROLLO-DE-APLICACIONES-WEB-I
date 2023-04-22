@@ -6,16 +6,42 @@
 <head>
   <meta charset="utf-8"> <!--especifica la codificación de caracteres -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!--"Initial-scale" establece el nivel de zoom de la página-->
+<!--"Initial-scale" establece el nivel de zoom de la página-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dia de la madre</title>
 <!--La etiqueta meta viewport controla el ancho de la página-->
-<script src="javaScript.js"></script> <!--definir a javaScipt-->
+  <script src="javaScript.js"></script> <!--definir a javaScipt-->
+  </head>
+  <body onload="mensaje();"> 
+    <main>
+      <div class="container mb-5">
+        <!-- Header -->
+        <header class="d-flex flex-wrap py-3 mb-5 border-bottom">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                </ul>  
+              </div>
+            </div>
+          </nav>
 
-</head>
-<body>
-    <h1>Día de la madre</h1>
-    <br>
-    <input type="button" id="viewAlerta" value="Dia">
-</body>
+        </header>     
+        
+        <!-- Planes --> 
+        <div class="row">
+
+          <div class="col-md-12 text-center mt-5 mb-5">
+
+            <h1 id="mensajesaludo"></h1>
+
+            <img name="imagensaludo" class="img-fluid mt-3" src="" width="20%">
+            
+          </div>
+                    
+        </div>
+
+      </div>
+
+    </main>
+ 
+  </body>
 </html>
