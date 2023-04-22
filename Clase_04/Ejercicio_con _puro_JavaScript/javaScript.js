@@ -1,6 +1,6 @@
 function mensaje() {
   
-    // Formateamos la Fecha, por ejemplo "2023-05-14" 
+    // Formateamos la Fecha, por ejemplo "2023-04-22" 
     var fechaHoy = new Date().toISOString().slice(0, 10);    
     
     // Colocamos la fecha formateada dentro de otra variable 
@@ -23,7 +23,7 @@ function mensaje() {
     // Verificamos si la fecha es igual a la fecha actual (Hoy)   
     } else if (soloFechaHoy == soloFechaHoy) {
       
-        texto = "" + soloFechaHoy + " ,Faltan 23 días para el ¡¡DÍA DE LA MADRE !!";
+        texto = "-" + soloFechaHoy + " ,Faltan 23 días para el ¡¡DÍA DE LA MADRE !!";
         imagen = "h.gif";
     
     // Si ninguna fecha coincide, entonces mostramos un mensaje por defecto   
