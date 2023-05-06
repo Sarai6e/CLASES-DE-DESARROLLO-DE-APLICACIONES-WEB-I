@@ -1,0 +1,17 @@
+/*Agregamos la fuente que vamos a utilizar en la pagina*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
+body{
+    background-image: url(Imagen\ de\ fondo\ de\ mapa.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    text-shadow: -1px -1px 1px #000000, 1px 1px 1px#000000, -1px 1px 1px #000000, 1px -1px 1px #000000;
+    -webkit-text-fill-color:  #62a9be; 
+
+}
+header{
+    background: #0c0c0c;
+}
+
+

@@ -1,0 +1,256 @@
+<!--Desarrolle de Proyecto Final -->
+<!--DOCTYPE es una etiqueta que nos permite definir los elementos del archivo HTML-->
+<!DOCTYPE html>
+<html lang="es"> <!-- El html es el atributo y lang el idioma-->
+<!-- Inicio de la  estructura-->
+<head>
+    <meta charset="UTF-8"> <!--especifica la codificación de caracteres -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--"Initial-scale" establece el nivel de zoom de la página-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+    <link rel="stylesheet" href="style.css"> <!--definir hoja estilo (css)-->
+    <title>LP DESARROLLO WEB</title>
+
+</head>
+
+<body>
+<!--SECCION INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>SR</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portafolio" onclick="seleccionar(this)">PROYECTOS</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+<!--ICONOS DEL MENU RESPONSIVE -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+
+                    </div>
+<!-- ICONOS DE LAS REDES SOCIALES -->
+<div class="redes">
+    <a href="https://www.youtube.com/@SarairutRomerovillanueva"><i class="fa-brands fa-square-youtube"></i></a>
+    <a href="https://www.facebook.com/profile.php?id=100090036183160"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://www.instagram.com/sarairutromero/"><i class="fa-brands fa-square-instagram"></i></a>
+    <a href="https://github.com/Sarai6e/DESARROLLO-DE-APLICACIONES-WEB-I.git"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.tiktok.com/@user5236794254212?_t=8bjquaOYIaM&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+</div>
+    </footer>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos </p>
+                <h2>Soy  <span> Sarai  </span>  Romero </h2>
+                <p class="descripcion"> "Ingeniera de software y sistemas , pasión por la programación y el aprendizaje autodidacta."</p>
+                <a href="#portafolio">Ir a Proyectos </a>
+            </div>
+        </div>
+    </section>
+
+<!-- SECCION SOBRE MI -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="Imagen de perfil.jpeg" alt="">
+        </div>
+        <div class="sobremi">
+            <h2>Hola, me llamo <span>Sarai Rut Romero Villanueva</span></h2>
+            <h3>Desarrolladora de software</h3>
+            <p>Soy Ingeniera especializda en la creación de sotware, con experiencia de 4 años "nivel Semi Senior".
+                Estudie en SENATI la carrera de Igenieria de Sotware con I.A y me convalide en 
+                la UTP para Ingeniera de sistemas, a parte domido los idiomas como el  Ingles y Frances , tengo 23 años .
+                Soy una persona humilde, empatica y responsable ,con mucha pación por la programación y la investigación.</p>
+            <p>DALE UN VISTASO A MIS PROYECTOS, MUCHAS GRACIAS.</p>
+            <a href="Ubicación.html"><i class="fa-sharp fa-solid fa-location-dot"></i>  Click para ver  Ubicación</a>
+            
+
+        </div>
+    </section>
+
+<!--SECCION SERVICIOS -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicios">
+                <span class="icono"><i class="fa-solid fa-desktop fa-beat"></i></span>
+                <h4>PROGRAMACIÓN</h4>
+                <hr>
+                <ul class="servicios-tag">
+
+                    <li>programadora</li>
+
+                </ul>
+                <P>Experiencia en la enseñanza de  programación intermedia .</P>
+            </div>
+            <div class="servicios">
+                <span class="icono"><i class="fa-solid fa-language fa-beat"></i></span>
+                <h4>IDIOMAS</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Maestra</li>
+
+                </ul>
+                <P>Experiencia en enseñar los idiomas de Inglés y Frances.</P>
+            </div>            
+            <div class="servicios">
+                <span class="icono"><i class="fa-solid fa-mobile fa-beat"></i></span>
+                <h4> APLICASIONES  </h4>
+                <hr>
+                <ul class="servicios-tag">
+ 
+                    <li>creación de aplicasiones </li>
+
+                </ul>
+                <P>Experiencia en la creación de aplicasiones de celulares.</P>
+            </div>
+
+        </div>
+        <div class="fila">
+            <div class="servicios">
+                <span class="icono"><i class="fa-solid fa-gamepad fa-beat"></i></span>
+                <h4>VIDEOJUEGOS</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>creación de videojuegos</li>
+                </ul>
+                <P>Experiencia en creacion de videojuegos de todo tipo </P>
+            </div>
+        </div>
+
+        </div>
+    </section>
+<!-- SECCION HABILIDADES -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES EN LENGUAJES DE PROGRAMACIÓN</h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Java</p>
+                <span class="porcentaje">95%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-progreso1"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Python</p>
+                <span class="porcentaje">88%</span>
+            </div>
+            <div class="barra">
+                <div id="js" ></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Css,javaScript,Html y Php</p>
+                <span class="porcentaje">80%</span>
+            </div>
+            <div class="barra">
+                <div id="bd" ></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>C++</p>
+                <span class="porcentaje">80%</span>
+            </div>
+            <div class="barra">
+                <div id="ps" ></div>
+            </div>
+        </div>
+    </div>
+
+<!-- SECCION Proyecto -->
+    <section id="portafolio">
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="imagen01.jpeg" alt="">
+                <div class="info">
+                    <h4>PROGRAMACIÓN</h4>
+                    <p>Realice  páginas web complejas</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="Imagen 02.jpg" alt="">
+                <div class="info">
+                    <h4>INSTALACIÓN</h4>
+                    <p>Realice  la instalación de nuevas aplicaciones a empresas extrangera</p>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="Imagen 03.jpeg" alt="">
+                <div class="info">
+                    <h4>videojuegos</h4>
+                    <p>Realice  20 videojuegos para empresa extrangera</p>
+                </div>
+            </div>
+           
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="Imagen 04.jpg" alt="">
+                <div class="info">
+                    <h4>IDIOMAS</h4>
+                    <p>Enseñe en 2 escuelas superiores los idiomas "Inglés y Frances!</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+<!--SECCION CONTACTO  -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre completo" class="input-mitad">
+                    <input type="text" placeholder="Direccion de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje...." class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+            
+        </div>
+    </section>
+
+<!-- SECCION FOOTER -->
+    <footer>
+        <p>todos los derechos reservados - 2023</p>
+<!-- ICONOS DE LAS REDES SOCIALES -->
+<div class="redes">
+    <a href="https://www.youtube.com/@SarairutRomerovillanueva"><i class="fa-brands fa-square-youtube"></i></a>
+    <a href="https://www.facebook.com/profile.php?id=100090036183160"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://www.instagram.com/sarairutromero/"><i class="fa-brands fa-square-instagram"></i></a>
+    <a href="https://github.com/Sarai6e/DESARROLLO-DE-APLICACIONES-WEB-I.git"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.tiktok.com/@user5236794254212?_t=8bjquaOYIaM&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+</div>
+    </footer>
+
+    <script src="scri.js"></script> <!--definir javaScript-->
+</body>
+
+</html>
